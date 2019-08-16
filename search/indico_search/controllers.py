@@ -60,3 +60,10 @@ class RHSearchCategoryTitles(RH):
             'url': unicode(category.url)
         } for category in query.limit(7)]
         return jsonify(success=True, results=results, count=query.count())
+
+
+class RHSearchme():
+    def _process(self):
+
+
+        return ()
